@@ -2,10 +2,11 @@
 
 ## Instructions
 
-Update an existing rails project to audit changes to a table, and then include additional enhancements of your own.
+Update an existing Rails project to audit changes to a state table, and then include additional enhancements of your own.
+
 ## Goals
 
-We use this test to get a sense of your coding style and to how you creatively solve both a concrete problem and an abstract one. When we receive your project, here is what we will be asking ourselves:
+We use this test to get a sense of your coding style, your Ruby skills, and to how you creatively solve both a concrete problem and an abstract one. When we receive your project, here is what we will be asking ourselves:
 
 - Does the basic functionality of the app work as intended?
 
@@ -20,7 +21,8 @@ We use this test to get a sense of your coding style and to how you creatively s
 This project should take approximately 5-15 hours to complete, and should be completed within a week of forking this repo. To work on the project:
 
 - Fork and clone the repo.
-- Inside of the `hmdtracker` folder you'll find a simple rails app you'll be modifying that lets you see a list of upcoming VR HMDs, and edit the state they are in. You'll need to run both `db:migrate` and `db:seed` to populate the initial db.  
+
+- Inside of the `hmdtrack` folder you'll find a simple rails app you'll be modifying that lets you see a list of upcoming VR HMDs, and edit the state they are in. You'll need to run both `db:migrate` and `db:seed` to populate the initial db.  
 
 # Part 1 - Audited State Transitions (3-5 hours)
 
