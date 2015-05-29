@@ -70,7 +70,7 @@ For this project, we would like you to change the way this state is stored. Inst
 
 ```
 
-What we're looking for is a small bit of reusable Rails code which will allow the manipulation of the `state` attribute on the model to reflect the latest row inserted into this table. Setting the `state` attribute should also result in an insert into this table.
+What we're looking for is a small bit of reusable Rails code which will result in the `state` attribute on the model to reflect the value of the `state` column of the latest row inserted into this table for that record. Setting the `state` attribute should also result in an insert into this table.
 
 We would like this to be factored in a way to be re-usable. Your final implementations of the two models, `Hmd` and `HmdState` should look like this:
 
@@ -120,6 +120,7 @@ The included app is pretty basic. This second part of the project is more open e
 
 Some ideas:
 
+- Improve the state auditing library with better efficiency or more features.
 - Update the app to use AJAX for saving the new state values.
 - Add a basic authentication system and a way for users to favorite their favorite HMDs.
 - Implement an email notification system for when the state of an HMD changes.
