@@ -122,7 +122,7 @@ Some ideas:
 
 - Improve the state auditing library with better efficiency or more features.
 - Update the app to use AJAX for saving the new state values.
-- Add a basic authentication system and a way for users to favorite their favorite HMDs.
+- Add a basic authentication system and a way for users to mark their favorite HMDs.
 - Implement an email notification system for when the state of an HMD changes.
 - Anything you want!
 
