@@ -92,7 +92,7 @@ class HmdState < ActiveRecord::Base
 end
 ```
 
-This shows how you should be able to wire these two classes together. The `Hmd` class specifies which model to track the `state` attribute through via `has_audited_state_through`, and also specifies what are valid values for the state.
+This shows how you should be able to wire these two classes together. The `Hmd` class specifies which model to track the `state` attribute through via `has_audited_state_through`, and also specifies what are valid values for the state. Additionally, `HmdState` wires itself in the other direction via `is_audited_state_for`.
 
 You can implement `AuditedState` as a Rails [Concern](http://api.rubyonrails.org/classes/ActiveSupport/Concern.html) and should use Ruby metaprogramming to extend the class's functionality. Here are the requirements for this concern:
 
