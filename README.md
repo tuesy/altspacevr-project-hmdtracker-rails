@@ -112,7 +112,7 @@ For this part of the project, there are a few things you should submit:
 - A small set of unit tests + test fixtures.
 - A migration script to migrate the existing legacy `state` column value into the new `hmd_states` table, and removal of the legacy column.
 
-For this part of the project, please **do not** include 3rd party code. You can reference 3rd party code of course, but any code you write for the concern should be your own. (We'll be asking you how it works!)
+For this part of the project, please **do not** include additional 3rd party code. You can reference 3rd party code of course, but any code you write for the concern should be your own. (We'll be asking you how it works!)
 
 # Part 2 - HMD Tracker Enhancements (5-10 hours)
 
