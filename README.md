@@ -20,7 +20,7 @@ We use this test to get a sense of your coding style and to how you creatively s
 This project should take approximately 5-15 hours to complete, and should be completed within a week of forking this repo. To work on the project:
 
 - Fork and clone the repo.
-- Inside of the `Project` folder you'll find a simple rails app that lets you see a list of upcoming VR HMDs, and edit the state they are in. You'll need to run both `db:migrate` and `db:seed` to populate the initial db. 
+- Inside of the `hmdtracker` folder you'll find a simple rails app you'll be modifying that lets you see a list of upcoming VR HMDs, and edit the state they are in. You'll need to run both `db:migrate` and `db:seed` to populate the initial db.  
 
 # Part 1 - Audited State Transitions (3-5 hours)
 
