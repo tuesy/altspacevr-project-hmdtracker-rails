@@ -121,10 +121,10 @@ The included app is pretty basic. This second part of the project is more open e
 Some ideas:
 
 - Improve the state auditing library with better efficiency or more features.
-- Update the app to use AJAX for saving the new state values.
-- Add a basic authentication system and a way for users to mark their favorite HMDs.
-- Implement an email notification system for when the state of an HMD changes.
-- Anything you want!
+- Update the app to have a more responsive, AJAX-y UX.
+- Add a basic authentication system and a way for users to customize the list.
+- Implement some type of notifications when something changes.
+- Anything you want! Been wanting to play with some new Ruby or JS framework? Use this as an excuse!
 
 Feel free to use 3rd party code (gems, libraries) as needed, keeping in mind our assessment criteria (noted at the top of the README.)
 
