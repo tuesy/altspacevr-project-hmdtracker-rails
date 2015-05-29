@@ -96,7 +96,7 @@ This shows how you should be able to wire these two classes together. The `Hmd` 
 
 You can implement `AuditedState` as a Rails [Concern](http://api.rubyonrails.org/classes/ActiveSupport/Concern.html) and should use Ruby metaprogramming to extend the class's functionality. Here are the requirements for this concern:
 
-- `model.state` should initially equal the first valid value (in this example, `:announced`), even if there are no rows in the table for that model yet.
+- `model.state` should initially equal the first valid value (in this example, `:announced`), even if there are no rows in the state table for that model yet.
 
 - `model.state = :new_state` should insert a row into the states table with the value `new_state` in the database, and subsequent calls to `model.state` should return `:new_state`.
 
