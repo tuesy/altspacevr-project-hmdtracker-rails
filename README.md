@@ -116,7 +116,7 @@ For this part of the project, please **do not** include additional 3rd party cod
 
 # Part 2 - HMD Tracker Enhancements (5-10 hours)
 
-The included app is pretty basic. This second part of the project is more open ended: we'd like you to spend time improving the functionality of the app in a way that showcases your skills and creativity.
+The included app is pretty basic. This second part of the project is more open ended: we'd like you to spend time improving the functionality of the app in a way that showcases your skills and creativity. This is your chance to blow us away!
 
 Some ideas:
 
