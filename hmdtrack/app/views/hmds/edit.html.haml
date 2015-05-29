@@ -1,0 +1,27 @@
+%table.hmds
+  %thead
+    %th
+      &nbsp;
+    %th
+      HMD Name
+    %th
+      Announced
+    %th
+      Company
+    %th
+      State
+  - @hmds.each do |hmd|
+    %tr
+      %td
+        %img{ width: 150, height: 100, src: hmd.image_url }
+      %td= hmd.name
+      %td= hmd.announced_at.to_s(:long_ordinal)
+      %td= hmd.company
+
+      - if params[:id].to_i == hmd.id
+        %td
+          = form_for hmd do |f|
+            = f.select :state, [["Announced", "announced"], ["DevKit", "devkit"], ["Released", "released"]]
+            = f.submit "Update"
+      - else
+        %td= hmd.state
