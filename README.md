@@ -70,7 +70,7 @@ For this project, we would like you to change the way this state is stored. Inst
 
 ```
 
-What we're looking for is a small bit of reusable Rails code which will result in the `state` attribute on the main model (in this case, `Hmd`) to reflect the value of the `state` column of the latest row inserted into this table for that record. Setting the `state` attribute should also result in an insert into this table.
+What we're looking for is a small bit of reusable Rails code which will result in the `state` attribute on the main model (in this case, `Hmd`) reflecting the value of the `state` column of the latest row inserted into this table for that record. Setting the `state` attribute should also result in an insert into this table.
 
 We would like this to be factored in a way to be re-usable. Your final implementations of the two models, `Hmd` and `HmdState` should look like this:
 
