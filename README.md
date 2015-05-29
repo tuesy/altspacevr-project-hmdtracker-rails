@@ -18,7 +18,7 @@ We use this test to get a sense of your coding style, your Ruby skills, and to h
 
 - Is the code well structured, easy to read and understand, and organized well?
 
-This project should take approximately 5-15 hours to complete, and should be completed within a week of forking this repo. To work on the project:
+This project should take approximately 5-15 hours to complete.
 
 - Fork and clone the repo.
 
