@@ -106,7 +106,7 @@ You can implement `AuditedState` as a Rails [Concern](http://api.rubyonrails.org
 
 You should **not** need to change the controller code if you've implemented this correctly. By simply making these changes to the two model classes to include and use `AuditedState` you should be seeing rows get inserted into the `hmd_states` table instead of updating the `state` column on the `hmds` table.
 
-For this part of the project, there are a few things you should submit:
+For this part of the project, there are a few things we'll be looking for in your submitted repo:
 
 - Your implementation of `audited_state.rb`
 - A small set of unit tests + test fixtures.
