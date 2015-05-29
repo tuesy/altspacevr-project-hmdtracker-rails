@@ -98,7 +98,7 @@ You can implement `AuditedState` as a Rails [Concern](http://api.rubyonrails.org
 
 - `model.state` should initially equal the first valid value (in this example, `:announced`), even if there are no rows in the state table for that model yet.
 
-- `model.state = :new_state` should insert a row into the states table with the value `new_state` in the database, and subsequent calls to `model.state` should return `:new_state`.
+- `model.state = :new_state` should insert a row into the state table with the value `new_state` in the database, and subsequent calls to `model.state` should return `:new_state`.
 
 - You can set `model.state` to a string or a symbol, and it should work. Reading `model.state` should return a symbol.
 
