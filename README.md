@@ -18,13 +18,11 @@ We use this test to get a sense of your coding style, your Ruby skills, and to h
 
 - Is the code well structured, easy to read and understand, and organized well?
 
-This project should take approximately 5-15 hours to complete.
-
 - Fork and clone the repo.
 
 - Inside of the `hmdtrack` folder you'll find a simple rails app you'll be modifying that lets you see a list of upcoming VR HMDs, and edit the state they are in. You'll need to run both `db:migrate` and `db:seed` to populate the initial db.  
 
-# Part 1 - Audited State Transitions (3-5 hours)
+# Part 1 - Audited State Transitions
 
 At AltspaceVR, we implement a number of patterns in our Rails stack which are designed to improve auditing and reduce the amount of mutable state in our system. As a general rule, we always perform `INSERTs` and never `UPDATEs` or `DELETEs` in our database. We've added facilities to Rails to let programmers use ActiveRecord models as always, but under the hood tables are appended to not overwritten. You'll be implementing a variant of one of these patterns here.
 
@@ -114,7 +112,7 @@ For this part of the project, there are a few things we'll be looking for in you
 
 For this part of the project, please **do not** include additional 3rd party code. You can reference 3rd party code of course, but any code you write for the concern should be your own. (We'll be asking you how it works!)
 
-# Part 2 - HMD Tracker Enhancements (5-10 hours)
+# Part 2 - HMD Tracker Enhancements
 
 The included app is pretty basic. This second part of the project is more open ended: we'd like you to spend time improving the functionality of the app in a way that showcases your skills and creativity. This is your chance to blow us away!
 
