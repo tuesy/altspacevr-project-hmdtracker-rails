@@ -42,8 +42,8 @@ If we were to expand on AuditedState, I'd namespace more. For example, Altspace:
 
 ### Scaling
 
-You'd want to add an index to the "hmd_states" table because everytime you get "state", you're doing a database query over more and more rows. The index should probably be on hmd_id and created_at. This should be confirmed with a database explain plan showing the index being used. One downsize of only have the state in the "hmd_states" table is that querying for Hmd's by state will be slower because you'll have to go through two tables. It's probably easier to keep the state field on the "hmd" table and just track the changes in addition--you're not losing too much by keeping that field.
+You'd want to add an index to the "hmd_states" table because everytime you get "state", you're doing a database query over more and more rows. The index should probably be on hmd_id and created_at. This should be confirmed with a database explain plan showing the index being used. One downside of only have the state in the "hmd_states" table is that querying for Hmd's by state will be slower because you'll have to go through two tables. It's probably easier to keep the state field on the "hmd" table and just track the changes in addition--you're not losing too much by keeping that field.
 
 ### Misc
 
-I added some best practice things like upgrading Rails to the latest patch version because security is important (see Mr. Robot). Added a .gitignore and explicitly set .ruby-version so we have consistency between across environments. I'm using Puma as the web server both locally and on Heroku because it's fast.
+I added some best practice things like upgrading Rails to the latest patch version because security is important (see Mr. Robot). Added a .gitignore and explicitly set .ruby-version so we have consistency across environments. I'm using Puma as the web server both locally and on Heroku because it's fast.
